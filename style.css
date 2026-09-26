@@ -1,0 +1,20 @@
+:root {
+  --grad: linear-gradient(135deg, #7c3aed, #d946ef 55%, #22d3ee);
+}
+body {
+  background: #070b16;
+  font-family: 'Tajawal', sans-serif;
+}
+.font-display {
+  font-family: 'Cairo', sans-serif;
+}
+.grad-text {
+  background: linear-gradient(90deg, #c4b5fd, #e879f9, #67e8f9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
