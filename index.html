@@ -1,0 +1,72 @@
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="ود الخليفة — متجر شحن الألعاب والاشتراكات وخدمات نمو التواصل الاجتماعي."/>
+<title>ود الخليفة | متجر شحن الألعاب والاشتراكات</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%237c3aed'/><path d='M7 13l3 3 7-7' stroke='white' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="font-body bg-ink text-slate-200 antialiased">
+
+<header id="header" class="fixed top-0 inset-x-0 z-40 border-b border-transparent transition-all duration-300 bg-[#070b16]/60 backdrop-blur-md">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6">
+    <div class="flex items-center justify-between h-[72px]">
+      <a href="#home" class="flex items-center gap-2.5">
+        <span class="w-10 h-10 rounded-xl btn-primary grid place-items-center">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-6 h-6 text-white" stroke-linecap="round" stroke-linejoin="round"><path d="M17.3 6H6.7A4.7 4.7 0 0 0 2.2 10.7l.8 5A2.8 2.8 0 0 0 5.7 19c.6 0 1.2-.4 1.5-.9l.9-1.5h6.8l.9 1.5c.3.5.9.9 1.5.9a2.8 2.8 0 0 0 2.7-3.3l.8-5A4.7 4.7 0 0 0 17.3 6z"/></svg>
+        </span>
+        <span class="font-display font-extrabold text-lg leading-none">ود <span class="grad-text">الخليفة</span><small class="block text-[9px] text-slate-400 font-body font-medium tracking-[2px] mt-0.5">GAMES STORE</small></span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-8 text-sm text-slate-300">
+        <a href="#home" class="hover:text-fuchsia-300 transition">الرئيسية</a>
+        <a href="#games" class="hover:text-fuchsia-300 transition">شحن الألعاب</a>
+        <a href="#checkout" class="hover:text-fuchsia-300 transition">التحصيل</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="home" class="relative pt-36 pb-14 text-center">
+  <div class="mx-auto max-w-7xl px-4">
+    <h1 class="font-display font-black text-4xl sm:text-5xl">مرحباً بك في متجر <span class="grad-text">ود الخليفة</span></h1>
+    <p class="text-slate-400 mt-4">شحن فوري لأبرز الألعاب والتوكنات الرقمية بأمان وسرعة.</p>
+  </div>
+</section>
+
+<section id="games" class="py-16">
+  <div class="mx-auto max-w-7xl px-4">
+    <h2 class="font-display font-extrabold text-3xl mb-8 text-center">قائمة الألعاب</h2>
+    <div class="grid sm:grid-cols-3 gap-5">
+      <div class="card p-4 bg-slate-900 border border-white/10 rounded-xl">
+        <h3 class="font-bold">PUBG Mobile — 1200 UC</h3>
+        <p class="text-sm text-slate-400 mt-1">$8.99</p>
+        <button type="button" class="btn-mini mt-4 w-full bg-fuchsia-600 py-2 rounded-lg text-white font-bold" data-add="g1">أضف للسلة</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="checkout" class="py-16 bg-black/30">
+  <div class="mx-auto max-w-3xl px-4">
+    <h2 class="font-display font-extrabold text-2xl mb-4">ملخص الطلب</h2>
+    <div class="card p-5 bg-slate-900 border border-white/10 rounded-xl">
+      <p class="text-slate-400">المجموع: <span id="subVal" class="font-bold text-white ltr">$0.00</span></p>
+      <button id="payBtn" class="w-full mt-4 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-bold text-white">تأكيد الطلب</button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="py-6 text-center text-slate-500 text-xs border-t border-white/10">
+  <p>© 2026 متجر ود الخليفة. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
